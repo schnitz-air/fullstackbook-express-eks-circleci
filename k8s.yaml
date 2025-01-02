@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 207100238581.dkr.ecr.us-east-2.amazonaws.com/express-eks:latest
+          image: 213561109591.dkr.ecr.us-east-1.amazonaws.com/express-eks:latest
           resources:
             limits:
               memory: "128Mi"
