@@ -20,7 +20,7 @@ spec:
               cpu: "500m"
           ports:
             - name: tcp
-              containerPort: 3000
+              containerPort: 3001
 ---
 apiVersion: v1
 kind: Service
