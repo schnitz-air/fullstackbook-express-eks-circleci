@@ -78,7 +78,7 @@ workflows:
   sample:
     jobs:
       - cortex-code-scan:
-        context: cortex-secrets
+          context: cortex-secrets
       - build-and-test:
           requires:
             - cortex-code-scan
