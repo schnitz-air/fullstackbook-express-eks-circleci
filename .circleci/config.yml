@@ -5,8 +5,8 @@ executors:
       image: ubuntu-2004:current # Replace with a suitable image or executor
       resource_class: medium
     environment:
-      CORTEX_API_URL: https://api-bootcamp.xdr.us.paloaltonetworks.com
-      CORTEX_CLI_VERSION: 0.12.0
+      CORTEX_API_URL: https:// https://api-tme-x5.xdr.jp.paloaltonetworks.com
+      CORTEX_CLI_VERSION: 0.13.0
 orbs:
   node: circleci/node@4.7
 
